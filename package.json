@@ -1,0 +1,27 @@
+{
+  "name": "node_chat",
+  "version": "1.0.0",
+  "description": "Implement simple web chat services with node.js server using socket.io",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levhyun/node_chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levhyun/node_chat/issues"
+  },
+  "homepage": "https://github.com/levhyun/node_chat#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
