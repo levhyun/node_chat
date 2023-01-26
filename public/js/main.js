@@ -9,7 +9,6 @@ btnSend.addEventListener("click", () => {
   } 
   else {
     boxMessages.innerHTML += `
-      <!-- MI MENSAJE -->
   <div class="chat from-message">
     <div class="detalles">
       <p>${message.value}</p>
@@ -37,7 +36,6 @@ function scrollBottom() {
 
 socket.on("message", (data) => {
   boxMessages.innerHTML += `
-  <!-- MENSAJE AMIGO -->
   <div class="chat to-message">
     <div class="detalles">
       <p>${data.msg}</p>
